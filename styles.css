@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+  }
+
+  body {
+    background-color: #f2f2f2;
+    font-family: "Roboto", sans-serif;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-wrap: wrap;
+  }
+
+a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.RemireTheRelator_logo, img{
+    width: 15vw;
+    height: 15vh;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+nav, a {
+    margin-top: 95px;
+    margin-right: 150px;
+}
+
+#shorts_video , video {
+    width: 300px;
+    height: 580px;
+}
+
+video {
+    border-radius: 20px;
+    border: 2px solid #000;
+    padding: 0;
+    background-color: #000;
+    box-shadow: 10px 10px 10px   #89CFF0;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.column{
+    flex: 1;
+    padding-right: 250px;
+}
+
+
+
+.about-us-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content inside the about-us-div */
+    /* Optional: center the text */
+    max-width: 600px;
+}
+
+#quote {
+    margin-bottom: 75px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+    .cloud {
+        width: 400px;  /* Increased width */
+        height: 300px; /* Increased height */
+        border-radius: 0 0 100px 100px; /* Adjusted border-radius for a bigger base curve */
+        background:
+        /*                radius                             position  / 2xradius */
+        radial-gradient(70px 60px, #89CFF0 98%, transparent 100%) 20% 30%  / 140px  120px,
+        radial-gradient(100px 90px, #89CFF0 98%, transparent 100%) 50% 50%  / 200px  180px,
+        radial-gradient(100px, #89CFF0 98%, transparent 100%) 100% 100%  / 200px  200px,
+        radial-gradient(80px, #89CFF0 98%, transparent 100%) 0 100%  / 160px  160px,
+        /* base of the cloud */
+        linear-gradient(#89CFF0, #89CFF0) bottom/100% 80px;
+        background-repeat: no-repeat;
+        
+
+    }
+    
+
+.cloud {
+    margin-bottom: -135px;
+}
+
+#about_us_bio {
+    padding-right: 100px;
+    margin-left: -100px;
+}
+
+.border-1 {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -1;
+    bottom: 290px;
+}
+.border-1 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 450px;
+}
+.border-1 .shape-fill {
+    fill: #89CFF0;
+}
+
+
+.border-2 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.border-2 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 289px;
+
+}
+
+.border-2 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.Remire_photo {
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.Reviews,h2 {
+    padding-bottom: 20px
+}
+
