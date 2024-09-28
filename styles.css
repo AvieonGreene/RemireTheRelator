@@ -119,6 +119,8 @@ video {
     line-height: 0;
     z-index: -1;
     bottom: 290px;
+    padding-bottom: 50px;
+    margin-bottom: 250px;
 }
 .border-1 svg {
     position: relative;
@@ -139,6 +141,7 @@ video {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+   
 }
 
 .border-2 svg {
@@ -163,3 +166,24 @@ video {
     padding-bottom: 20px
 }
 
+
+.review-container {
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+#container-3 {
+  position: relative;
+  left: -500px;
+  top: -250px
+}
+#container-2 {
+    position: relative;
+    right: -250px;
+    top: -90px
+  }
+
+  #container-1 {
+    padding-top: 20px;
+  }
