@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    padding: 0;
   }
 
   body {
@@ -23,7 +24,7 @@ a{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.RemireTheRelator_logo, img{
+.RemireTheRelator_logo > img{
     width: 15vw;
     height: 15vh;
 }
@@ -126,7 +127,7 @@ video {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 450px;
+    height: 700px;
 }
 .border-1 .shape-fill {
     fill: #89CFF0;
@@ -141,6 +142,7 @@ video {
     overflow: hidden;
     line-height: 0;
     transform: rotate(180deg);
+  padding-top: 100px;
    
 }
 
@@ -163,27 +165,85 @@ video {
 }
 
 .Reviews,h2 {
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    padding-top: px;
 }
 
 
-.review-container {
-    border: 2px solid #000;
+.REVIEW_1 {
+    padding: 15px;
+    border-radius: 20px;
+}
+.REVIEW_2 {
+    padding: 15px;
+    border-radius: 20px;
+}
+.REVIEW_3 {
     padding: 15px;
     border-radius: 20px;
 }
 
 #container-3 {
   position: relative;
-  left: -500px;
-  top: -250px
+  left: -400px;
+  top: -330px
 }
 #container-2 {
     position: relative;
-    right: -250px;
+    right: -330px;
     top: -90px
   }
 
   #container-1 {
     padding-top: 20px;
+    position:relative;
+    left: 55px;
   }
+
+  .REVIEW_1 {
+    width: 65%;
+    height: 80%;
+  }
+  .REVIEW_2 {
+    width: 65%;
+    height: 80%;
+  }
+  
+  .REVIEW_3 {
+    width: 65%;
+    height: 80%;
+  }
+
+  .service-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+  }
+
+  .caption {
+    text-align: center;
+    margin-right: 5px;
+  }
+  
+  .Services {
+    width: 220px;
+    height: 200px;
+    border-radius: 7px;
+  }
+
+  .Services-3 {
+    width: 220px;
+    height: 200px;
+    border-radius: 7px;
+  }
+
+  .Services-box {
+    border: 2px solid #000;
+    padding-bottom: 10px;
+    width: 220px;
+    border-radius: 10px;
+  }
+  
+
+
