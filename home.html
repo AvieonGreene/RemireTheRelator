@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -15,23 +16,33 @@
         <img src="/img/RTR No Background Logo .png" alt="RemireTheRelator">
         </div>
         <nav>
+            <!-- <span class="home-emoji">&#127968;</span> -->
             <a href = #HomePage>Home</a>
+            <!-- <span class="fa fa-star checked"></span> -->
             <a href = #HomePage>Reviews</a>
             <a href = #HomePage>Get in touch</a>
             <a href = #HomePage>Form</a>
         </nav>
     </header>
     <section>
+        <div class="shorts-quote">
+        <h2>"I <span style="color: #f2f2f2;">help</span> people <span style="color: #f2f2f2;">accomplish</span> <br> <span style="color: #f2f2f2;">goals</span> that they set <br>for <span style="color: #f2f2f2;">themselves</span>."</h2>
+        </div>
         <div class="parent">
         <div class="column" id="Shorts_video">
      <video  src="/img/4446ef3d5b404faa8f31767000f6646d.MP4" type="video/MP4" autoplay></video>
      </div>
       <div class="about-us-div">
      <div class="column" id="quote">
-    <div class="cloud"></div>
-        <h2>"i help people accomplish <br> goals that they set <br>for themselves."</h2>
+    <div class="cloud"> <img src="/img/IMG_1465.jpg" alt="closing-pic"></div>
      </div>
-     <div class="column" id="about_us_bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+     <div class="bio-div" id="about_us_bio">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
+            ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+             culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
       </div>
     </div>
@@ -43,26 +54,34 @@
             <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
         </svg></div>
         <div class="Reviews">
-        <h2>See his awesome reviews!!</h2>
+        <h2 style="font-size: 2rem;">Check out the awsome reviews!!</h2>
+        <p>5.0</p>
+        <div class="star-rating">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        </div>
         <img src="/img/photos_high_resolution_DSC01342.JPG" alt="Remire_photo" class="Remire_photo">
         </div>
 
         <div id="container-1" >
         <div class="review-container" id="container-1">
-            <img src="/img/REVIEW_1 2024-10-05 at 6.45.32 PM.png" alt="REVIEW_1" class="REVIEW_1">
+            <img src="/img/REVIEW_1 2024-10-05 at 6.45.32PM.png" alt="REVIEW_1" class="REVIEW_1">
         </div>
         </div>
 
 
             <div id="container-2" >
         <div class="review-container"id="container-2">
-            <img src="/img/REVIEW_2 2024-10-05 at 6.57.10 PM.png" alt="REVIEW_2" class="REVIEW_2">
+            <img src="/img/REVIEW_2 2024-10-05 at 6.57.10PM.png" alt="REVIEW_2" class="REVIEW_2">
         </div>
         </div>
 
             <div id="container-3" >
         <div class="review-container">
-            <img src="/img/REVIEW_3 2024-10-05 at 6.45.14 PM.png" alt="REVIEW_3" class="REVIEW_3">
+            <img src="/img/REVIEW_3 2024-10-05 at 6.45.14PM.png" alt="REVIEW_3" class="REVIEW_3">
         </div>
         </div>
 
@@ -76,7 +95,7 @@
 
  <!---this is the service section-->
     <section>
-        <h2>Services</h2>
+        <h2 style="font-size: 2rem; padding-bottom: 20px;">Services</h2>
         <div class="service-container">
             <div class="Services-box"><img src="/img/Residential.jpg" alt="Residential" class="Services">
             <p class="caption">~ Residential Real Estate ~</p>
@@ -105,41 +124,56 @@
             </div>
         </div>
 
+        
+
         <div class="form-container">
+            <div class="icons">
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="20" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff4013" d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512l388.6 0c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304l-91.4 0z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff4013" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff4013" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50" width="20" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ff4013" d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+            </div>
+
             <div class="personal-info"> 
+                
                 <h3>Name</h3>
                 <p>Remire Heinze</p>
+                
+
+               
                 <h3>Number</h3>
                 <p>502-641-1816</p>
+
                 <h3>Email</h3>
                 <p>rheinze@bhhspw.com</p>
+
                 <h3>Address</h3>
                 <p>1701 Herr Ln, Louisville, KY 40222</p>
             </div>
 
-        <form action="">
+        <form action="https://formspree.io/f/xgvevwea" method="POST">
             <div class="form-top">
             <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
+            <input type="text" id="fname" name="fname" placeholder=" John Davis "><br>
     
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br>
+            <input type="email" id="email" name="email" placeholder=" Johndavis@gmail.com"><br>
             </div>
 
             <div class="form-middle">
             <label for="email">Subject</label><br>
-            <input type="text" id="subject" name="subject"><br>
+            <input type="text" id="subject" name="subject" placeholder=""><br>
             </div>
 
             <div>
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder=" Message goes here!!"></textarea>
             </div>
             <button class="form-btn">Send Message</button>
 
         </form>
         </div>
     </section>
-    <section>
+    <!-- <section>
         <h1>nice Curves</h1>
         <p>At eum ut cumque labore iste molestiae facilis quos explicabo laboriosam odit aspernatur est, porro suscipit. Distinctio reiciendis suscipit deleniti accusamus! Molestias, necessitatibus perspiciatis! Excepturi sequi fuga laudantium libero repellat.</p>
     </section>
@@ -154,7 +188,7 @@
     <section>
         <h1>nice Curves</h1>
         <p>Suscipit, perferendis quia quasi maxime officia cumque! Dicta quaerat, repellat minus ex odit aut expedita nam sapiente accusamus recusandae consectetur saepe esse inventore, molestiae ullam ratione, accusantium eaque iste in.</p>
-    </section>
+    </section> -->
     <script src="script.js"></script>
 </body>
 </html>
