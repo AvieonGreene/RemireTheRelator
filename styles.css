@@ -4,13 +4,14 @@
    
   }
 
+ 
 html {
     scroll-behavior: smooth;
     scrollbar-color: #000 #fff;
 }
 
   body {
-    background-color: #800e13;
+    background-color: grey;
     background-image: url(/img/pexels-dimengliu-3064258.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -215,6 +216,7 @@ video {
   top: 365px;
   left: 45px;
 }
+
 
 .Reviews p {
     font-size: 40px;
@@ -432,6 +434,14 @@ video {
 
   label {
     font-weight: 700;
+  }
+
+  input :valid :required {
+    outline: 2px solid #89fc00;
+  }
+
+  input :invalid :required{
+    outline: 2px solid #ff002b;
   }
 
 
